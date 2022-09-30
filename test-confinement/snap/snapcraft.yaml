@@ -1,5 +1,5 @@
 name: test-confinement
-base: core20
+base: core22
 version: '0.1'
 summary: Demo some confinment bits
 description: |
@@ -17,7 +17,7 @@ apps:
 parts:
   bash:
     plugin: autotools
-    source: http://ftp.gnu.org/gnu/bash/bash-4.3.tar.gz
+    source: https://ftp.gnu.org/gnu/bash/bash-5.2.tar.gz
     autotools-configure-parameters: ["--infodir=/var/bash/info"]
     build-packages: [ build-essential ]
     organize:
