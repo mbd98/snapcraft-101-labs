@@ -1,5 +1,5 @@
 name: test-content-slot
-base: core20
+base: core22
 version: '0.1'
 summary: Snapcraft demo for content interface
 description: |
